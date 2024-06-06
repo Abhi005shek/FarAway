@@ -1,0 +1,95 @@
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(234, 140, 68);
+    padding: 1rem;
+}
+
+h3{
+    padding: 1.2rem;
+    /* background-color: chocolate; */
+    text-align: center;
+    color: rgb(49, 38, 38);
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: aqua;
+    color: rgb(49, 38, 38);
+    width: 100%;
+    font-style: italic;
+}
+
+.packList{
+    padding: .9rem 2rem;
+    text-align: center;
+    background-color: rgb(107, 58, 37);
+    flex:1;
+    position: relative;
+    
+}
+
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+li{
+    list-style: none;
+}
+
+li input{
+    margin: .4rem;
+}
+
+/* li span{
+    text-decoration: line-through;
+} */
+
+.listBtn{
+    margin-left: .5rem;
+    background-color: rgb(107, 58, 37);
+    outline: none;
+    border: none;
+    /* background: ; */
+}
+
+.add-form{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    color: black;
+}
+
+.add-form input, button , select{
+    margin:10px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding : 0 1.4rem;
+    color: black;
+
+}
+
+.add-form button{
+    background: aquamarine;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    left: 40%;
+    justify-content: center;
+}
